@@ -54,7 +54,7 @@ body {
 .btn-light:focus,
 .btn-light:active {
     color: #333;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.45);
 }
 
 /* Custom Horizontal Rule */
@@ -162,16 +162,29 @@ hr.small {
     -o-background-size: cover;
 }
 
+
+
+.main-logo{
+    position: relative;
+    height: 20%;
+    width: 45%;
+    opacity: .55;
+
+}
+
+
 /* About */
 
 .about {
     padding: 50px 0;
+    background: #4D4D4D;
 }
 
 /* Services */
 
 .services {
     padding: 50px 0;
+    background: #009ace;
 }
 
 .service-item {
@@ -184,7 +197,7 @@ hr.small {
     display: table;
     width: 100%;
     height: 400px;
-    color: #fff;
+    color: ghostwhite;
     background: url(../img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -196,6 +209,10 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    background: #4D4D4D;
+}
+.col-lg-10 h2{
+    color: #E6E6E6;
 }
 
 .portfolio-item {
@@ -214,6 +231,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background: #009ace;
 }
 
 .call-to-action .btn {
@@ -236,4 +254,11 @@ hr.small {
 
 footer {
     padding: 100px 0;
+    background: #009ace;
 }
+
+.row{
+    color: #E6E6E6;
+}
+
+/*Top*/
